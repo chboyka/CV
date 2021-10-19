@@ -1,0 +1,229 @@
+body{
+    font-family: roboto;
+}
+
+main{
+    width: 21cm;
+    height: 29.7cm;
+    margin: 0 auto;
+    display: flex;
+    padding: 0;
+    background: linear-gradient(to bottom,rgba(16, 16, 214, 0.9),rgba(118, 26, 180,0.8),rgba(209, 33, 159, 0.9));
+} 
+
+section{
+    border-radius: 0.8rem;
+}
+
+.left{
+    margin: 1ch 0.5ch 1ch 1ch;
+    background: rgba(255,255,255,0.2);
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.left div{
+    flex: 1;
+}
+
+.sub-l1 p{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 2.5rem;
+    color: whitesmoke;
+}
+
+.sub-l1 p span{
+    font-weight: 600;
+}
+
+.role{
+    font-size: 1.2rem;
+}
+
+.sub-l2{
+    border: 2px solid white;
+    border-radius: 1rem;
+    background: rgba(255,255,255,0.2);
+    position: relative;
+}
+
+.sub-l2 img{
+    position: absolute;
+    width: 7rem;
+    border-radius: 50%;
+    border: 5px solid whitesmoke;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.about-me{
+    position: absolute;
+    bottom: 0;
+    padding: 1ch 3ch 1ch 4ch;
+    font-family: roboto;
+}
+
+.sub-l2 h1{
+    font-size: 1.5rem;
+    color: whitesmoke;
+    line-height: 1ch;
+}
+
+.sub-l2 p{
+    font-size: 1rem;
+    color: whitesmoke;
+    max-width: 30ch;
+}
+
+
+.sub-l3{
+    padding-top: 1ch;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.email, .phone, .linkedin{
+    width: 80%;
+    padding: 0 2ch;
+    margin: 2ch auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 2rem;
+    background: rgba(255,255,255,0.2);
+}
+
+.email img{
+    width: 2.5rem;
+    margin-right: 1.2rem;
+}
+
+.phone img{
+    width: 2.5rem;
+    margin-right: 1.2rem;
+}
+
+.linkedin img{
+    width: 2.5rem;
+    margin-right: 1.2rem;
+}
+
+.sub-l4{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 2ch;
+}
+
+.sub-l4 p{
+    color: whitesmoke;
+    font-family: roboto;
+}
+
+.sub-l4 h1{
+    color: whitesmoke;
+    border-radius: 2rem;
+    padding: 0.3rem 0;
+    margin: 1rem ;
+    text-align: center;
+    width: 100%;
+}
+
+.languages{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem 2ch ;
+}
+
+.english{
+    display: flex;
+}
+
+.level ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.level ul li{
+    display: inline;
+    margin-left: 2ch;
+}
+
+.circle{
+    width: 1rem;
+    height: 1rem;
+    border:1px solid whitesmoke;
+    border-radius: 50%;
+}
+
+.talented{
+    background: rgba(255,255,255,0.8);
+}
+
+.right{
+    margin: 1ch 1ch 1ch 0.5ch;
+    /* height: 90%; */
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding-left: 2ch;
+    padding-right: 2ch;
+}
+
+.right h4{
+    margin-top: 1rem;
+    background: rgba(146, 22, 177, 0.9);
+    border-radius: 2rem;
+    width: max-content;
+    font-weight: 500;
+    color: whitesmoke;
+    padding: 0.5rem 2rem ;
+}
+
+.description{
+    list-style: none;
+    margin: 1ch 0;
+}
+
+#python,#PHP,#Git,#Linux,#sql{
+    width: 2.6rem;
+    border-radius: 50%;
+    border: 5px solid rgba(16, 16, 214, 0.9);
+}
+
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 2ch;
+}
+
+.skills > div{
+    margin-left: 2ch;
+}
+
+.sub-div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.hobby{
+    padding-bottom: 2ch;
+}
+
+.right  h4{
+    /* padding:0; */
+    /* margin: 0; */
+}
