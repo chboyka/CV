@@ -175,13 +175,13 @@ section{
     display: flex;
     flex-direction: column;
     /* align-items: center; */
-    justify-content: center;
+    /* justify-content: center; */
     padding-left: 2ch;
     padding-right: 2ch;
 }
 
 .right h4{
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     background: rgba(146, 22, 177, 0.9);
     border-radius: 2rem;
     width: max-content;
