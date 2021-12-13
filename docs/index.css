@@ -1,7 +1,20 @@
+@page {
+    size: A4;
+    margin: 0;
+}
+@media print {
+    html, body {
+      width: 210mm;
+      height: 297mm;
+    }
+}
+
 body,html{
     font-family: roboto;
     max-width: 100vw;
     max-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 main{
@@ -64,12 +77,12 @@ section{
 .about-me{
     position: absolute;
     bottom: 0;
-    padding: 1ch 3ch 1ch 4ch;
+    padding: 1ch 1ch 2ch 4ch;
     font-family: roboto;
+    font-size: small;
 }
 
-.sub-l2 h1{
-    font-size: 1.5rem;
+.sub-l2 h2{
     color: whitesmoke;
     line-height: 1ch;
 }
@@ -144,6 +157,10 @@ section{
     padding: 0 1rem 2ch ;
 }
 
+.e-mail{
+    font-size: smaller;
+}
+
 .english{
     display: flex;
 }
@@ -205,22 +222,72 @@ section{
 
 .skills{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
     padding-right: 2ch;
 }
 
 .skills > div{
-    margin-left: 2ch;
+    margin-left: 4ch;
+
 }
 
 .sub-div{
-    justify-content: center;
+    width: 90%;
+    justify-content: space-between;
     align-items: center;
     display: flex;
-    flex-direction: column;
+    padding: 0;
+    margin-top: -20px;
 }
 
 .hobby{
-    padding-bottom: 2ch;
+    padding-bottom: 0ch;
+}
+
+meter{
+    padding: 10px;
+    width: 200px;
+}
+
+.sub-div .progress-bar {
+    left: 150px;
+    width: 200px;
+    height: 10px;
+    border-radius: 30px;
+    background: #e2e2e2;
+}
+
+
+.sub-div .progress-bar .progressing {
+    height: 100%;
+    background: rgba(209, 33, 159, 0.9);
+    border-radius: 30px;
+}
+
+.progressing-python{
+    width: 90%;
+}
+.progressing-java{
+    width: 60%;
+}
+.progressing-php{
+    width: 60%;
+}
+.progressing-git{
+    width: 40%;
+}
+.progressing-sql{
+    width: 60%;
+}
+.progressing-linux{
+    width: 80%;
+}
+.progressing-windows{
+    width: 90%;
+}
+
+.competencies{
+    margin-left: 4ch;
 }
